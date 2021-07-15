@@ -94,7 +94,7 @@ async def start_command(client: Client, message: Message):
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
-    text = "<b>You Need To Join in My Channel To Use Me\n\First join My Channel</b>"
+    text = "<b>You Need To Join in My Channel To Use Me\nFirst join My Channel</b>"
     message_text = message.text
     try:
         command, argument = message_text.split()
