@@ -8,10 +8,10 @@
     <img src="https://github.com/Mo_Tech_YT/PyrogramGenStr/blob/main/resources/madebymotech-badge.svg" width="250">
   </a><br>
   <a href="https://t.me/Mo_Tech_YT">
-    &nbsp;<img src="https://img.shields.io/badge/Mo%20%F0%9D%95%8F%20Tech-Channel-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
+    &nbsp;<img src="https://img.shields.io/badge/MoTech-Channel-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
   </a>
   <a href="https://t.me/Mo_Tech_Group">
-    &nbsp;<img src="https://img.shields.io/badge/Mo%20%F0%9D%95%8F%20Tech-Group-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
+    &nbsp;<img src="https://img.shields.io/badge/MoTech-Group-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
   </a>
   <br>
   <a href="https://github.com/DarkAngel1234-tech/Multi-Files-Share/stargazers">
