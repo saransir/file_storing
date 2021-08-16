@@ -10,12 +10,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Master : <a href='https://t.me/COLD_ONEz'>COLD_ONEz</a>\n\n○ Master : <a href='https://t.me/mrk_yt'>MRK_YT</a>\n\n○ Group : <a href='https://t.me/Mo_Tech_Group'>Mo_Tech_Group</a>\n\n○ Channel : <a href='https://t.me/Mo_Tech_YT'>Mo_Tech_YT</a></b>",
+            text = f"<b>○ ⭕️admin⭕️ : <a href='https://t.me/On_air_Filter_bot'>on air movies </a>\n\n○ movie searching Group : <a href='https://t.me/bhddhhddnjd'> ⭕️ Group ⭕️</a>\n\n○ ⭕️ Channel ⭕️ : <a href='https://t.me/on_air_movies'>⭕️👉click👈⭕️</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
-                [
+                
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("❗️Close❗️", callback_data = "close")
                     ]
                 ]
             )
