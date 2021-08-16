@@ -73,8 +73,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("About Me ⚡️", callback_data = "about"),
-                    InlineKeyboardButton("Close 🔒", callback_data = "close")
+                    InlineKeyboardButton("⭕️ group ⭕️", url = "https://t.me/bhddhhddnjd"),
+                    InlineKeyboardButton("⭕️ Close ⭕️", callback_data = "close")
                 ]
             ]
         )
@@ -94,7 +94,7 @@ async def start_command(client: Client, message: Message):
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
-    text = "<b>You Need To Join in My Channel To Use Me.</b>"
+    text = "<b>⭕️ ചാനലിൽ ജോയിൻ ചെയ്ത ശേഷം മാത്രമേ bot വർക്ക് ആവൂ😉 ⭕️.</b>"
     message_text = message.text
     try:
         command, argument = message_text.split()
